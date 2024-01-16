@@ -1,34 +1,8 @@
-# kanban-desktop-app-vue
+# Kanban Board Desktop App
 
-An Electron application with Vue and TypeScript
+Code for the [Youtube video](https://youtu.be/VAbpHedzSDI) on building a Kanban Board Desktop App using Vue 3( Composition API ), Tailwind CSS, Typescript, VueUse, VeeValidate, Zod and Drag & Drop web api 
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
-
-## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+- It allows user to perform CRUD operations on Columns and Tasks.
+- It uses VeeValidate and Zod for form validation.
+- It uses the browser web API to allow drag and drop feature to both Columns and Tasks.
+- It persists the data using Local Storage
